@@ -17,7 +17,7 @@ scanf("%d", &pno);
 printf("\nEnter size of each process: ");
 for(i = 0; i < pno; i++)
 scanf("%d", &psize[i]);
-for(i = 0; i < pno; i++) 
+for(i = 0; i < pno; i++)
 for(j = 0; j < bno; j++)
 if(flags[j] == 0 && bsize[j] >= psize[i])
 {
